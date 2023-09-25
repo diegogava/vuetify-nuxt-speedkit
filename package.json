@@ -1,19 +1,20 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build && nuxt start",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@iconify/vue": "^4.1.1",
     "@mdi/font": "^7.2.96",
     "@mdi/js": "^7.2.96",
     "@nuxtjs/google-fonts": "^3.0.0",
-    "nuxt": "3.7.2",
+    "nuxt": "3.0.0",
     "nuxt-purgecss": "^2.0.0",
     "sass": "^1.64.2",
     "vuetify": "^3.3.16"

@@ -14,7 +14,7 @@
     "@mdi/font": "^7.2.96",
     "@mdi/js": "^7.2.96",
     "@nuxtjs/google-fonts": "^3.0.0",
-    "nuxt": "3.7.0",
+    "nuxt": "3.7.3",
     "nuxt-purgecss": "^2.0.0",
     "sass": "^1.64.2",
     "vuetify": "^3.3.16"

@@ -14,12 +14,13 @@
     "@mdi/font": "^7.2.96",
     "@mdi/js": "^7.2.96",
     "@nuxtjs/google-fonts": "^3.0.0",
-    "nuxt": "3.7.2",
-    "nuxt-purgecss": "^2.0.0",
+    "nuxt": "3.7.4",
+    "vuetify": "^3.3.16",
     "sass": "^1.64.2",
-    "vuetify": "^3.3.16"
+    "nuxt-purgecss": "^2.0.0"
   },
   "dependencies": {
+    "h3-compression": "^0.3.2",
     "nuxt-speedkit": "^3.0.0-next.26",
     "vite-plugin-vuetify": "^1.0.2"
   }

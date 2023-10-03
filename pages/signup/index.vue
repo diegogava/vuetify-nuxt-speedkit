@@ -13,7 +13,7 @@
                 <VTextField
                   :rules="[ruleRequired]"
                   v-model="name"
-                  prepend-inner-icon="fluent:person-24-regular"
+                  prepend-inner-icon="$account"
                   id="name"
                   name="name"
                 />
@@ -24,7 +24,7 @@
                   :rules="[ruleRequired, ruleEmail]"
                   v-model="email"
                   type="email"
-                  prepend-inner-icon="fluent:mail-24-regular"
+                  prepend-inner-icon="$email"
                   id="email"
                   name="email"
                 />
@@ -35,7 +35,7 @@
                   :rules="[ruleRequired, rulePassLen]"
                   type="password"
                   v-model="password"
-                  prepend-inner-icon="fluent:password-20-regular"
+                  prepend-inner-icon="$lock"
                   id="password"
                   name="password"
                 />

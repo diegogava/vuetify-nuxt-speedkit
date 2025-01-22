@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nuxt 3 + Vuetify 3 Starter
 
 ![Starter Image](/public/starter.png)
@@ -79,3 +80,6 @@ I will definitely be switching to vee-validate for dealing with forms.
 #### Icons
 
 The public folder contains a `favicon` & `icon`. Change these out for your app and be sure to tweak the pwa config inside the `nuxt.config` file to fit your app
+=======
+# vuetify-nuxt-speedkit
+>>>>>>> 9acd3a5b041506e6675b2f0c4ddbb071269ae338

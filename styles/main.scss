@@ -1,0 +1,26 @@
+@use 'vuetify' with (
+  // $color-pack: false,
+  $utilities: false
+);
+
+html, body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    font-family: 'segoe ui', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+a {
+    transition: none !important;
+    text-decoration: none !important;
+    color: rgb(var(--v-theme-anchor));
+}
+
+#app {
+    top: 0;
+    bottom: 0;
+    min-height: 100%;
+}

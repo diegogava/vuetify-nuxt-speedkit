@@ -1,13 +1,9 @@
 <script setup lang="ts">
 
-    // Fonts
-    const { $getFont } = useBoosterFonts()
-
 </script>
 <template>
   <!-- Menu + Footer -->
-  <div class="q-pa-md"
-    v-font="[$getFont('Roboto', 500, 'italic')]">
+  <div class="q-pa-md">
     <q-layout view="lHh lpr lFf" container style="height: 400px" class="shadow-2 rounded-borders">
       <q-header elevated>
         <q-toolbar>

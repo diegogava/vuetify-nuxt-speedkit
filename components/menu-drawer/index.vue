@@ -1,8 +1,4 @@
 <script setup lang="ts">
-
-    // Fonts
-    const { $getFont } = useBoosterFonts()
-
     const drawer = ref(false)
     const menuList = [
       {
@@ -49,8 +45,7 @@
 
 
 <!-- Menu Drawer -->
-  <div class="q-pa-md"
-    v-font="[$getFont('Roboto', 500, 'italic')]">
+  <div class="q-pa-md">
     <q-layout view="hHh Lpr lff" container style="height: 300px" class="shadow-2 rounded-borders">
       <q-header elevated :class="$q.dark.isActive ? 'bg-secondary' : 'bg-black'">
         <q-toolbar>

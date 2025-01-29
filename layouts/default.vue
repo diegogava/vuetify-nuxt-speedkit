@@ -8,13 +8,6 @@
     /////////////////// IMPORTS ///////////////////
     ///////////////////////////////////////////////
 
-    // Booster
-    // import boosterHydrate from '#booster/hydrate'
-    // const hydrate = useBoosterHydrate()
-
-    // Components
-    // const BoosterInfo = defineAsyncComponent(() => import('@/components/booster/info/index.vue'))
-
     ///////////////////////////////////////////////
     ////////////////// FETCH DATA /////////////////
     ///////////////////////////////////////////////
@@ -26,11 +19,10 @@
 
 </script>
 <template>
-  <div>
-    <!-- <booster-info critical>
-    </booster-info> -->
-    <div class="container mx-auto mt-[64px] min-h-[100vh]">
-        <slot></slot>
+    <div>
+        <menu-drawer></menu-drawer>
+        <div class="container mx-auto mt-[64px] min-h-[100vh]">
+            <slot></slot>
+        </div>
     </div>
-  </div>
 </template>

@@ -87,11 +87,15 @@ export default defineNuxtConfig({
     experimental: {
         renderJsonPayloads: true
     },
+    features: {
+        inlineStyles: true,
+        devLogs: false,
+    },
 
-  modules: [
-      '@nuxt/image',
-      '@nuxtjs/tailwindcss',
-      'nuxt-vitalizer',
+    modules: [
+        '@nuxt/image',
+        '@nuxtjs/tailwindcss',
+        'nuxt-vitalizer',
         async (options, nuxt) => {
             nuxt.hooks.hook("vite:extendConfig", (config) => {
                 config?.plugins?.push(
@@ -114,9 +118,29 @@ export default defineNuxtConfig({
     },
     ssr: true,
     typescript: { shim: false, strict: true, },
-    vitalizer: {
-        disableStylesheets: 'entry'
-    },
+    // vitalizer: {
+    //     disableStylesheets: 'entry',
+    //     // delayHydration: {
+    //     //     // /**
+    //     //     //  * Specify the events that should trigger hydration.
+    //     //     //  *
+    //     //     //  * @default ['mousemove', 'scroll', 'keydown', 'click', 'touchstart', 'wheel']
+    //     //     //  */
+    //     //     // hydrateOnEvents?: (keyof WindowEventMap)[]
+    //     //     /**
+    //     //      * The maximum amount of time to wait in milliseconds when waiting for an idle callback. This is useful when there are a lot of network requests happening.
+    //     //      *
+    //     //      * @default 8000
+    //     //      */
+    //     //     idleCallbackTimeout: 8000,
+    //     //     /**
+    //     //      * Time to wait in milliseconds after the idle callback before hydrating the component.
+    //     //      *
+    //     //      * @default 4000
+    //     //      */
+    //     //     postIdleTimeout: 4000,
+    //     //   }
+    // },
     vite: {
         // build: {
         // 	/* used minifier when transpiling (def "esbuild", false = disable)

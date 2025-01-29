@@ -24,7 +24,7 @@
                   :rules="[ruleRequired, ruleEmail]"
                   v-model="email"
                   type="email"
-                  prepend-inner-icon="$email"
+                  prepend-inner-icon="mdi-email"
                   id="email"
                   name="email"
                 />
@@ -35,7 +35,7 @@
                   :rules="[ruleRequired, rulePassLen]"
                   type="password"
                   v-model="password"
-                  prepend-inner-icon="$lock"
+                  prepend-inner-icon="mdi-home"
                   id="password"
                   name="password"
                 />
